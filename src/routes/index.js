@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import { Router, Route, Switch, Redirect} from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
 import history from '../services/history';
 import DashBoard from '../pages/DashBoard';
