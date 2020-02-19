@@ -6,7 +6,7 @@ export const UserContext  = createContext();
 
 const UserProvider = ({ children }) => {
   const [user, setUser] = useState(
-    {id:1, email:'teste@teste1.com', token: '', partner: true, signed: false }
+    {id:'', email:'', token: '', partner: true, signed: true }
   );
 
   return (
